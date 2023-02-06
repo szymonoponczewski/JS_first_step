@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.form {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#contact-details-head {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+label {
+  color: #666;
+  text-transform: uppercase;
+}
+
+#button {
+  margin-top: 20px;
+  max-width: 100px;
+}
+
+.button-wrapper {
+  text-align: center;
+}
